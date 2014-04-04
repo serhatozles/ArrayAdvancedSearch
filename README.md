@@ -4,6 +4,7 @@ ArraySearch
 This function is searching inside of array.
 
 Example Usage:
+```php
 <?php
 
 include('ArraySearch.php');
@@ -34,3 +35,4 @@ echo '</pre>';
 //
 // )
 ?>
+```
