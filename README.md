@@ -4,7 +4,7 @@ ArraySearch
 This function is searching inside of array.
 
 Example Usage:
-<code><?php
+“` ruby<?php
 
 include('ArraySearch.php');
 
@@ -34,4 +34,4 @@ echo '</pre>';
 //
 // )
 ?>
-</code>
+“`
