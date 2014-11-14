@@ -4,10 +4,10 @@
  * 
  * ArraySearch
  * 
- * Dizi içerisinde arama yapabilmek için oluşturulan fonksiyon.
- * $all kısmının 1 olması tüm sonuçların dizi olarak dönmesini sağlar.
+ * Created for do to search inside of array.
+ * if you do $all is 1, all results will return to array 
  * 
- * Örnek: ArraySearch( array $dizi, string "key1 = 'bunaesitolmali1' and key2 >= 'bundanbuyukolmali' or key3 != 'bunaesitolmasin3'", int $all = 0 );
+ * Example: ArraySearch( array $dizi, string "key1 = 'bunaesitolmali1' and key2 >= 'bundanbuyukolmali' or key3 != 'bunaesitolmasin3'", int $all = 0 );
  * 
  */
 
