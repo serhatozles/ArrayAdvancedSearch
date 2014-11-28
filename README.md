@@ -9,7 +9,7 @@ Example Usage:
 
 include('ArraySearch.php');
 
-$query		=	"a='Example World' and b>'2'";
+$query		=	"a='Example World' and b>='2'";
 
 $Array			=	array(
     'a' => array('d' => '2'),
