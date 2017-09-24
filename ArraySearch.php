@@ -68,7 +68,7 @@ function ArraySearch($SearchArray, $query, $all = 0, $Return = 'direct')
                         if ($all === 1 && is_array($ArrayElement)) {
                             if ($Return == 'direct') :
                                 $args = func_get_args();
-                                $ChildResult = static::q($ArrayElement, $args[1], $args[2], $args[3]);
+                                $ChildResult = ArraySearch($ArrayElement, $args[1], $args[2], $args[3]);
                                 if (count($ChildResult) > 0):
                                     $ResultArray[$i] = is_array($ResultArray[$i]) ? $ResultArray[$i] : [];
                                     $ResultArray[$i] = array_merge($ResultArray[$i], $ChildResult);
